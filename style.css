@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: rgb(88, 20, 20);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.container .icon-ceu{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+.container .icon-ceu span{
+    font-size: 100px;
+}
+.container .data-tempo{
+    display: flex;
+    height: 30%;
+}
+.container .data-tempo #tempo{
+    width: 70%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.container .data-tempo #tempo .temperatura{
+    font-size: 30px;
+    font-weight: 600;
+}
+.container .data-tempo .city select{
+    border: 1px solid rgb(1, 106, 124);
+    color: rgb(1, 106, 124);
+    padding: 7px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.container .data-tempo .city label{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.container .data-tempo #data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(1, 106, 124);
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
