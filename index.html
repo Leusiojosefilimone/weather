@@ -6,38 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
      <link rel="stylesheet" href="style.css">
-    <title>WeatherLand</title>
+    <title> WeatherLand </title>
 </head>
 <body>
     <div class="container">
         <div class="icon-ceu">
-                
+          <div class="loading"></div>
         </div>
 
         <div class="data-tempo">
             <div id="tempo">
             
-                <div class="temperatura"></div><img src="" class="icon" alt="">
+                <div class="temperatura">
+
+                </div>
+                
+                <img src="" class="icon" alt="">
                 <div class="city">
                     <label for="citys">Choose your city</label>
-                    <select onchange="weather.search(), gerarMes()" name="" id="citys">
-                        <option value="maputo">Maputo</option>
-                        <option value="xai-xai">Xai-xai</option>
-                        <option value="inhambane">inhambane</option>
-                        <option value="Chimoio">Chimoio</option>
-                        <option value="Beira">Beira</option>
-                        <option value="tete">tete</option>
-                        <option value="Quelimane">Quelimane</option>
-                        <option value="Nacala">Nacala</option>
-                        <option value="pemba">Pemba</option>
-                        <option value="Lichinga">Lichinga</option>
-
+                    <select onchange="weather.search()" name="" id="citys">
+                     <option  >Select</option>
+                       
+                       
                     </select>
                 </div>
             </div>
 
             <span id="data">
-                 1 jan
+                 
             </span>
         </div>
     </div>
